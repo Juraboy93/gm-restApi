@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gm_app
+    username: postgres
+    password: 1020305015
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
